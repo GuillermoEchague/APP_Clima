@@ -23,7 +23,7 @@ const App = () => {
   useEffect(()=>{
    const consultarClima = async () => {
     if(consultar) {
-      const appId = 'a8fd8fe260713ff930b7f7e65ebf2b62'
+      const appId = ''
       const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`
 
       try {
